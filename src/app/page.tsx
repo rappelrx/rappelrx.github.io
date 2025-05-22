@@ -33,33 +33,59 @@ export default function Home() {
             LinkedIn
           </a>
         </div>
+
         <h2 className="text-4xl font-bold pt-8">Projects</h2>
-        <a href="https://rappelrx.github.io/intermission/" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <div className="flex flex-col text-center p-4 leading-normal">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">The Intermission Orchestra Website</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Responsive front-end website for the Intermission Orchestra.</p>
-                <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">Node.js, jQuery, JavaScript, HTML, CSS</p>
-            </div>
-            <img className="object-cover w-24 rounded-t-lg h-auto md:h-auto md:w-40 md:rounded-none md:rounded-s-lg pb-6 md:p-6" src="/jiji-tio.png" alt="Jiji from Kiki's Delivery Service" />
-        </a>
+        <div className="flex flex-wrap -m-4">
+          <div className="w-full xl:w-1/2 p-4">
+            <a href="https://rappelrx.github.io/intermission/" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <div className="flex flex-col text-center p-4 leading-normal">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">TIO Multi-Page Website</h5>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Responsive, multi-page frontend website for The Intermission Orchestra (TIO).</p>
+                    <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">Node.js, jQuery, JavaScript, HTML, CSS</p>
+                </div>
+                <img className="object-cover w-24 rounded-t-lg h-auto md:h-auto md:w-40 md:rounded-none md:rounded-s-lg pb-6 md:p-6" src="/jiji-tio.png" alt="Jiji from Kiki's Delivery Service" />
+            </a>
+          </div>
+          <div className="w-full xl:w-1/2 p-4">
+            <a href="https://rappelrx.github.io/genshindoc-app/" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img className="object-cover w-24 rounded-t-lg h-auto md:h-auto md:w-40 md:rounded-none md:rounded-s-lg pt-6 md:p-6" src="/baron-bunny-papercraft.png" alt="Baron bunny" />
+                <div className="flex flex-col text-center p-4 leading-normal">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GenshinDoc Web App</h5>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Responsive frontend web app offering tools and resources for Genshin Impact players.</p>
+                    <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">Vue.js, TypeScript, Vite, HTML, CSS</p>
+                </div>
+            </a>
+          </div>
+          <div className="w-full xl:w-1/2 p-4">
+            <a href="https://rappelrx.github.io/pikasketch-app/" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <div className="flex flex-col text-center p-4 leading-normal">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PikaSketch Web App</h5>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Full-stack MERN web app that lets users draw and log Pokémon characters.</p>
+                    <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">React.js, Express.js, Node.js, MongoDB, TypeScript, HTML, CSS</p>
+                </div>
+                <img className="object-cover w-24 rounded-t-lg h-auto md:h-auto md:w-40 md:rounded-none md:rounded-s-lg pb-6 md:p-6" src="/squidward-octocat.png" alt="Squidward Octocat" />
+            </a>
+          </div>
+        </div>
 
-        <a href="https://rappelrx.github.io/genshindoc-app/" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <img className="object-cover w-24 rounded-t-lg h-auto md:h-auto md:w-40 md:rounded-none md:rounded-s-lg pt-6 md:p-6" src="/baron-bunny-papercraft.png" alt="Baron bunny" />
-            <div className="flex flex-col text-center p-4 leading-normal">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GenshinDoc Web App</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Responsive front-end web app offering tools and resources for Genshin Impact players.</p>
-                <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">Vue.js, TypeScript, Vite, HTML, CSS</p>
-            </div>
-        </a>
+        <h2 className="text-4xl font-bold pt-8">Vector Art Gallery</h2>
+        <p className="text-2xl">All of my artworks created in Figma.</p>
 
-        <a href="https://rappelrx.github.io/pikasketch-app/" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <div className="flex flex-col text-center p-4 leading-normal">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PikaSketch Web App</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Full-stack MERN web app that lets users draw and log Pokémon characters.</p>
-                <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">React.js, Express.js, Node.js, MongoDB, TypeScript, HTML, CSS</p>
-            </div>
-            <img className="object-cover w-24 rounded-t-lg h-auto md:h-auto md:w-40 md:rounded-none md:rounded-s-lg pb-6 md:p-6" src="/squidward-octocat.png" alt="Squidward Octocat" />
-        </a>
+        <div className="flex flex-wrap -m-4">
+          <div className="w-full md:w-1/3 p-4">
+            <Image src="/fig-pikmin-medley.png" alt="Pikmin Medley Artwork" width={1080} height={1350} />
+          </div>
+          <div className="w-full md:w-1/3 p-4">
+            <Image src="/fig-dandadan-froyo.png" alt="Dandadan Yogurt World Artwork" width={1080} height={1350} />
+          </div>
+          <div className="w-full md:w-1/3 p-4">
+            <Image src="/fig-hk-cookies.png" alt="Hollow Knight Cookies Artwork" width={1080} height={1350} />
+          </div>
+          <div className="w-full md:w-1/3 p-4">
+            <Image src="/fig-aladdin-suite.png" alt="Aladdin Suite Artwork" width={1080} height={1350} />
+          </div>
+        </div>
+
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
